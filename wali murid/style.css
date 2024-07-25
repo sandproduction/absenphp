@@ -1,0 +1,198 @@
+*,html,body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+nav{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100px;
+   height: 100px;
+   position: fixed;
+   top: 20px;
+   right: 20px;
+   z-index: 10;
+   box-shadow: 2px 2px 10px #000000;
+   border-radius: 100%;
+   transition: all 0.2s ease;
+   cursor: pointer;
+}
+
+nav:hover{
+   width: 110px;
+   height: 110px;
+}
+
+nav:active{
+   width: 100px;
+   height: 100px;
+   
+}
+
+body{
+   width: 100vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   overflow-x: hidden;
+}
+.container{
+   width: 70%;
+}
+
+section{
+   padding: 40px 0px;
+}
+
+header{
+   background-color:darkviolet;
+   color: white;
+   padding: 20px;
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.nama-user{
+   text-align: center;
+   font-size: 2.5em;
+   margin-bottom: 20px;
+}
+
+.role{
+   background-color: white;
+   color: black;
+   padding: 10px;
+   width: 50%;
+   border-radius: 30px;
+   text-align: center;
+   font-size: 1.3em;
+}
+
+.pesan{
+   width: 100%;
+   color: black;
+   font-weight: bolder;
+   font-size: 1.5em;
+   text-align: center;
+   padding: 20px 0px 10px 0px;
+}
+
+.search-form{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin: 0px 0px;
+   padding: 25px;
+   
+}
+
+.search-box{
+   box-shadow: 2px 2px 10px #000000;
+   border-radius: 30px;
+   width: 100%;
+}
+
+.input-field{
+   width: 100%;
+   padding-bottom: 15px;
+   border-bottom: 2px solid black;
+}
+
+.kelas-option{
+   width: 49%;
+   padding: 11px 20px;
+   text-align: center;
+   border-radius: 20px;
+   font-size: 1.2em;
+   font-weight: bolder;
+}
+
+.date-chooser{
+   width: 50%;
+   padding: 10px 20px;
+   text-align: center;
+   border-radius: 20px;
+   font-size: 1.2em;
+   font-weight: bolder;
+}
+
+.btn-search{
+   border: 2px solid black;
+   margin-top: 20px;
+   width: 100%;
+   padding: 10px 0px;
+   border-radius: 20px;
+   background-color:white;
+   color: black;
+   font-size: 1.5em;
+   font-weight: bolder;
+   cursor: pointer;
+}
+
+.tabel-wrapper{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 40px;
+   margin-bottom: 30px;
+   background-color: white;
+   box-shadow: 2px 2px 10px #000000;
+   border-radius: 30px;
+
+}
+
+.tgl-absen{
+   margin: 30px 0px;
+   padding: 10px 50px;
+   font-size: 1.2em;
+   text-align: center;
+   background-color: darkviolet;
+   border-radius: 30px;
+   color: white;
+}
+
+.table{
+   width: 100%;
+   border-radius: 20px;
+   overflow: hidden;
+   padding: 0px 40px 40px 40px;
+}
+
+.table td{
+   padding: 15px 10px;
+   text-align: center;
+   border-bottom:1px solid rgba(128, 128, 128, 0.5) ;
+}
+
+.table th{
+   border-bottom:1px solid rgba(128, 128, 128, 0.5) ;
+   padding: 15px 10px;
+   font-size: 1.1em;
+}
+
+.logout-form{
+   width: 100%;
+   text-align: center;
+}
+
+.logout-btn{
+   padding: 20px;
+   width: 30%;
+   border: none;
+   border-radius: 30px;
+   font-size: 1.2em;
+   font-weight: bolder;
+   color: white;
+   background-color:crimson;
+   cursor: pointer;
+}

@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+section{
+    box-shadow: 2px 2px 10px #000000;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+header{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.img{
+    padding: 0px;
+}
+img{
+    width: 150px;
+}
+.profil{
+    margin: 30px;
+}
+.btn-change{
+    padding: 7px;
+   background-color: darkmagenta;
+   color: white;
+
+   font-weight: bolder;
+   border-radius: 50px;
+
+}
+.back-btn{
+    padding: 7px;
+    background-color: darkmagenta;
+    color: white;
+    font-weight: bolder;
+    border-radius: 50px;
+}
+.table{
+    padding: 10px;
+    margin: 20px 0px;
+}

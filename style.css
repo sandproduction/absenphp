@@ -1,0 +1,113 @@
+*,html,body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background-color: black;
+}
+
+.container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   min-height: 98vh;
+}
+
+.logo{
+   width: 250px;
+   height: 250px;
+   border-radius: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   margin: 50px;
+}
+
+.wrapper{
+   border: 2px solid rebeccapurple;
+   width: 500px;
+   height: 550px;
+   text-align: center;
+   background-color: white;
+   border-radius: 30px;
+   margin-bottom: 100px;
+
+}
+
+.title-login{
+   border-bottom: 3px solid black;
+   padding: 20px 0px;
+}
+
+.title{
+   font-size: 3em;
+}
+
+.form-login{
+   padding: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: start;
+
+}
+
+.pas-field,
+.no-induk{
+   display: flex;
+   align-items: center;
+   width: 100%;
+   text-align: left;
+   margin-bottom: 20px;
+   padding: 22px 10px;
+   background-color: rgba(0, 0, 0, 0.6);
+   border-radius: 20px;
+}
+
+.no-induk p,
+.pas-field p{
+   color: white;
+   width: 40%;
+   margin: 0px 0px 0px 10px;
+   font-size: 1.25em;
+}
+
+.input-login{
+   border: none;
+   padding: 18px 10px;
+   margin: 0px 5px;
+   font-size: 1em;
+   text-align: center;
+   width: 60%;
+   border-radius: 20px;
+}
+
+.btn-login{
+   border: none;
+   background-color: rgb(22, 85, 202);
+   padding: 20px 0px;
+   margin-top: 30px;
+   border-radius: 20px;
+   color: white;
+   font-weight:bold;
+   font-size: 1.2em;
+   cursor: pointer;
+   width: 100%;
+}
+
+label{
+   font-size: 20px;
+}
+
+.alert-login{
+   background-color: rgba(252, 0, 34, 0.932);
+   padding: 8px;
+   margin: 10px;
+   font-style: italic;
+   color: white;
+   border-radius: 20px;
+}
